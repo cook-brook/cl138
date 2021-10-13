@@ -15,5 +15,18 @@
 .big_image{
     width: 100%;
 }
+h1{
+    background-color: aliceblue;
+    margin: 0px;
+    line-height: 2;
+}
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
+.modal-dialog{
+    width: 90%;
+}
+
 
  
