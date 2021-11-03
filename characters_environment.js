@@ -1,4 +1,11 @@
+noseX="";
+noseY="";
+GameStatus="";
+function startgame(){
+  GameStatus="start";
+  document.getElementById("status").innerHTML="game is loading";
 
+}
 /*=================================
 =            Variables            =
 =================================*/
@@ -55,9 +62,12 @@ var gameConfig={
 
 function game(){
 
+  console.log("nose X ="+noseX+"nose Y ="+noseY);
+
   instializeInDraw();
   moveEnvironment(mario);
   drawSprites();
+
   
   if(gameConfig.status==='start'){
 

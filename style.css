@@ -27,6 +27,12 @@ h1{
 .modal-dialog{
     width: 90%;
 }
+video{
+    background: url('game_console.png');
+    background-position: center;
+    background-size: cover;
+    padding: 25px;
+}
 
 
  
